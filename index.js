@@ -15,5 +15,18 @@ elemClass[0].classList.add("bg-primary")
 // elemClass[0].classList.add("test-success");
 elemClass[0].classList.remove("test-success")
 //to know html and text
-console.log(elemClass[0].innerHTML)
-console.log(elemClass[0].innerText)
+// console.log(elemClass[0].innerHTML)
+// console.log(elemClass[0].innerText)
+
+tn= document.getElementsByTagName('div')
+console.log(tn)
+createdElement=document.createElement('p');
+createdElement.innerText=" This is a created para"
+tn[0].appendChild(createdElement)
+// createdElement2=document.createElement('b');
+// createdElement2.innerText="This is created bold";
+// removeChild(element);
+
+//Queries or selection by query
+sel=document.querySelector('.container')
+console.log(sel)
